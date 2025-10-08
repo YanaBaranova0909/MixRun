@@ -10,7 +10,7 @@ import { test, expect } from '@playwright/test';
    * 1. Run test with username '{{name}}'
    * 2. Use password '{{password}}'
    */
-  test(`testing with ${name} @T54090f0a`, async () => {
+  test(`testing with ${name}`, async () => {
     expect(true).toBe(true);
   });
 });
